@@ -47,6 +47,8 @@ A **client** is a computer that initiates a request from a server. When you open
 
 The key here is that two computers get connected in a server-client relationship. The client initiates a request and the server responds. The client handles the response in some way that is useful for the user, like displaying the webpage on screen.
 
+![](images/dev-production.png)
+
 Note that it is possible for the same computer to play the role of server and client. It is common for a developer to set up their own computer to play the role of server while they're building a webpage. Then they can preview the site they're building while they're building it.
 
 
@@ -82,7 +84,9 @@ The Process:
 
 6. Our browser finally goes to the address given by the last DNS Server and we see the beautiful Google landing page of the day!
 
-<img width="698" alt="screen shot 2017-02-18 at 10 25 37 am" src="https://cloud.githubusercontent.com/assets/4304660/23095784/a542df90-f5c4-11e6-8c19-0909f77d6b9d.png">
+![](images/dns-path.png)
+
+![](images/process.png)
 
 [IP Addresses and DNS](https://www.khanacademy.org/partner-content/code-org/internet-works/v/the-internet-ip-addresses-and-dns)
 
@@ -167,6 +171,8 @@ Here are the possible HTTP Methods, in order from most common to most rare:
 
 We will learn more about the different HTTP Methods later, but for now just try to recognize them when you look at things in the browser's Dev Console.
 
+![](images/http-request-header.png)
+
 HTTP Headers are typically used for providing extra information about requests and responses. Common examples are dates, time stamps, content type, encoding options, caching details, language, user/login information, security details, verification information, etc. The best way to understand HTTP Headers is to start looking at them in your Dev Console, recognize patterns, and look up more information whenever you're curious about a particular header.
 
 HTTP responses include status codes. These codes can be very useful for developers working with request/response cycles. They come as three digit numbers and dictate whether a specific HTTP requests has been successfully completed. Responses are grouped in five classes, with the first digit determining the higher-level categorization:
@@ -211,4 +217,4 @@ BONUS VIDEO - [How much does the Internet weigh?](https://www.youtube.com/watch?
 * <a href="https://www.youtube.com/watch?v=GlZC4Jwf3xQ" target="_blank">Awkward but lovable guy gives technical description of DNS Servers</a>
 * <a href="http://searchnetworking.techtarget.com/definition/client-server" target="_blank">A tangible article on TCP/IP Protocols</a>
 * <a href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank">Name Servers - A main component of DNS Servers</a>
-* <a href="https://en.wikipedia.org/wiki/Name_server" target=
+* <a href="https://en.wikipedia.org/wiki/Name_server" target="_blank">DNS Server Wikipedia Page</a>
